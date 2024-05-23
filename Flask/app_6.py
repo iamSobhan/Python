@@ -1,4 +1,3 @@
-from ctypes.wintypes import HHOOK
 from flask import Flask, redirect, url_for, render_template, request
 
 app = Flask(__name__)
