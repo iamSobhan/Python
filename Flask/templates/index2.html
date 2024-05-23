@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Home Page</title>
+    </head>
+    <body>
+        <h1>This is a Home Page!</h1>
+        {% for i in range(10) %}
+           {% if i % 2 == 1 %}
+               <p>{{i}}</p>
+           {% endif %}
+        {% endfor % }
+    </body>
+</html>
