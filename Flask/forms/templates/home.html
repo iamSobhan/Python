@@ -1,0 +1,13 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+<h2>Contents</h2>
+<div>
+
+<p>Getting Started? <a href="{{ url_for('signup')}}">Signup</a></p>
+<p>Already Started? <a href="{{ url_for('login')}}">Login</a></p>
+
+</div>
+
+{% endblock content %}
